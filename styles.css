@@ -64,6 +64,7 @@ div{
     text-align: end;
     padding-top: 10px;
     font-size: 1.5em;
+    height: auto;
 }
 #topbar li{
     display: inline;
@@ -88,6 +89,7 @@ div{
     padding-left: 30px;
     padding-bottom: 10px;
     color: grey;
+    height: auto;
 
 
     
@@ -96,6 +98,7 @@ div{
 #bottomleft a{
    color: rgb(104, 104, 104);
    font-weight: 300;
+   height: auto;
 }
 
 
@@ -103,6 +106,7 @@ div{
     display: inline;
     margin-right: 10px;
     font-size: 18px;
+    height: auto;
 }
 
 .inline a{
@@ -116,19 +120,21 @@ div{
     position: absolute;
     bottom: 0;
     right: 0;
-    padding-right: 30px;
     padding-bottom: 10px;
+    height: auto;
+    width: 15%;
 }
 
 #bottomright li{
     display: inline;
     margin-right: 10px;
     font-size: 18px;
-    
+    height: auto;
 }
 
 #bottomright li a {
     color: rgb(78, 78, 78);
+    height: auto;
 }
 
 #signin {
