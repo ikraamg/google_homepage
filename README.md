@@ -1,2 +1,13 @@
 # google_homepage
-Re-creating the google home page to improve HTML/CSS and chrome_dev_toolkit skills.
+Aim: To re-create the Google home-page to improve HTML/CSS skills.
+
+Skills Learnt:
+HTML -  General use/syntax
+        Forms
+        Buttons
+
+CSS -   General use/syntax
+        Flexbox
+        Headers/Footers 
+
+Chrome Developer Tools
