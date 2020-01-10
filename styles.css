@@ -106,7 +106,7 @@ div{
     display: inline;
     margin-right: 10px;
     font-size: 18px;
-    height: auto;
+ 
 }
 
 .inline a{
@@ -129,7 +129,6 @@ div{
     display: inline;
     margin-right: 10px;
     font-size: 18px;
-    height: auto;
 }
 
 #bottomright li a {
