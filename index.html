@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Google</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Google</title>
+	</head>
 
-  <body>
+	<body>
+		<div>
+			<img
+				class="centre"
+				id="image"
+				src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+				alt="Google Logo Image"
+			/>
 
-<div>
-    <img class = centre id=image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo Image">
+			<form class="centre" action="nothing">
+				<input id=searchbar class=type="text" name="search_bar" id="search_bar">
+			</form>
 
-    <form class = centre action="nothing">
+			<span class="centre" id="buttons">
+				<button class="buttonsearch" type="submit" id="buttonsearch">
+					Google Search
+				</button>
 
-        <input id=searchbar class=type="text" name="search_bar" id="search_bar">
-        
-    </form>
+				<button class="buttonsearch" type="submit">
+					I'm Feeling lucky
+				</button>
+			</span>
 
-    <span class = centre id = buttons>
-<button class =buttonsearch type="submit" id =buttonsearch>
+			<span class="centre" id="languages">
+				<ul>
+					Google offered in:
+					<li><a href="http://">Afrikaans</a></li>
+					<li><a href="http://">Sesotho</a></li>
+					<li><a href="http://">isiZulu</a></li>
+					<li><a href="http://">Setswana</a></li>
+					<li><a href="http://">Northern Sotho</a></li>
+				</ul>
+			</span>
+		</div>
 
-    Google Search
+		<ul id="topbar">
+			<li><a href="default.asp">Gmail</a></li>
+			<li><a href="news.asp">Images</a></li>
+			<li>
+				<a href="potato.asp">
+					<button id="imagebut">
+						<img id="tinyapp" src="./new_image.png" alt="apps" />
+					</button>
+				</a>
+			</li>
+			<li>
+				<button type="submit" id="signin">
+					Sign in
+				</button>
+			</li>
+		</ul>
 
-</button>
+		<ul id="bottomleft">
+			<li id="ontop"><a href="http://">South Africa</a></li>
+			<hr />
+			<li class="inline"><a href="http://">Advertising</a></li>
+			<li class="inline"><a href="http://">Business</a></li>
+			<li class="inline"><a href="http://">About</a></li>
+			<li class="inline"><a href="http://">How Search works</a></li>
+		</ul>
 
-<button class =buttonsearch type="submit">
-    I'm Feeling lucky
-</button>
-
-</span>
-
-<span class = centre id=languages>
-
-<ul>
-    Google offered in:    
-    <li><a href="http://">Afrikaans</a></li>
-    <li><a href= "http://">Sesotho</a></li>
-    <li><a href= "http://">isiZulu</a></li>
-    <li><a href="http://">Setswana</a></li>
-    <li><a href="http://">Northern Sotho</a></li>
-</ul>
-
-</span>
-
-</div>   
-
-    <ul id=topbar>
-        <li><a href="default.asp">Gmail</a></li>
-        <li><a href="news.asp">Images</a></li>
-        <li>
-            <a href="potato.asp"> <button id=imagebut> <img id= tinyapp src="./new_image.png" alt="apps">
-            </button></title>
-            </a>
-        </li>
-        <li><button type="submit" id=signin>
-            Sign in
-        </button> </li>
-  </ul>
-
-    <ul id=bottomleft>
-        <li id=ontop><a href="http://">South Africa</a></li>
-        <hr>
-        <li class="inline"><a href="http://">Advertising</a></li>
-        <li class="inline"><a href="http://">Business</a></li>
-        <li class="inline"><a href="http://">About</a></li>
-        <li class="inline"><a href="http://">How Search works</a></li>
-    
-    </ul>
-
-    <ul id=bottomright>
-        <li><a href="http://">Privacy</a></li>
-        <li><a href="http://">Terms</a></li>
-        <li><a href="http://">Settings</a></li>
-    </ul>
-    
-
-  </body>
+		<ul id="bottomright">
+			<li><a href="http://">Privacy</a></li>
+			<li><a href="http://">Terms</a></li>
+			<li><a href="http://">Settings</a></li>
+		</ul>
+	</body>
 </html>
