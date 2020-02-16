@@ -8,7 +8,7 @@ body {
 	overflow: hidden;
 }
 
-#buttonsearch {
+#BUTTONSEARCH {
 	margin-right: 5vh;
 }
 
@@ -181,4 +181,3 @@ hr {
 	margin-top: 7px;
 	border-radius: 0.5em;
 }
-
