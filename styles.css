@@ -171,7 +171,7 @@ a {
   background-repeat: no-repeat;
   background-size: 1.3em, 2em;
   box-shadow: 0.25px 0.25px rgb(51, 48, 48);
-  padding: 0px 40px;
+  padding: 0 40px;
   font-size: 1.5em;
 }
 
