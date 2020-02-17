@@ -165,7 +165,10 @@ a {
   height: 2em;
   border-color: rgba(128, 124, 124, 0.109);
   border-style: solid;
-  background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png),
+
+  /* prettier-ignore */
+  background-image:
+    url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png),
     url(https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg);
   background-position: left, right;
   background-repeat: no-repeat;
