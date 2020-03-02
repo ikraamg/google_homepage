@@ -8,6 +8,14 @@ body {
   overflow: hidden;
 }
 
+a {
+  color: black;
+  font-size: 0.7em;
+  text-decoration: none;
+  z-index: 1;
+  padding: 1em;
+  margin: -1em;
+}
 #buttonSearch {
   margin-right: 5vh;
 }
@@ -135,15 +143,6 @@ div {
 
 #languages li {
   display: inline;
-}
-
-a {
-  color: black;
-  font-size: 0.7em;
-  text-decoration: none;
-  z-index: 1;
-  padding: 1em;
-  margin: -1em;
 }
 
 #imagebut {
